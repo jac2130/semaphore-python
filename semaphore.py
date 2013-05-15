@@ -63,7 +63,7 @@ def import_semaphore(xml=output):
 
     labels=[[eval(dictionary)['label'] for dictionary in get_frame_names(layers[i], keys=['labels'])] for i in range(len(raw_list))]
 
-    label_list=[[] for i in range(len(labels))]
+    frame_dict=[{} for i in range(len(labels))]
     def make_label_list(labels, frames, raw_text):
         label_ls=[]
         try:
@@ -79,11 +79,11 @@ def import_semaphore(xml=output):
         return label_ls
 
     for i in range(len(labels)):
-        try: label_list[i].append(make_label_list(labels[i], frames[i], raw_text[i]))
+        try: frame_dict[i]['fn-labels'] =make_label_list(labels[i], frames[i], raw_text[i])
         except: pass
 
+        frame_dict[i]['text']=raw_text[i]
 
-    frame_dict={'fn-labels': label_list, 'text':raw_text}
     return frame_dict
 
 def clean_raw_text(text, file_name=''):
