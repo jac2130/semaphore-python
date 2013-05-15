@@ -64,18 +64,24 @@ def import_semaphore(xml=output):
     labels=[[eval(dictionary)['label'] for dictionary in get_frame_names(layers[i], keys=['labels'])] for i in range(len(raw_list))]
 
     label_list=[[] for i in range(len(labels))]
-    for i in range(len(labels)):
-        for j in range(len(labels[i])):
-            try:
+    def make_label_list(labels, frames, raw_text):
+        label_ls=[]
+        try:
                 #This try statement is executed if there is only one frame in the sentence.
-                label_list[i].append([frames[i][0]] + [labels[i][j][u'@name'], raw_text[i][eval(labels[i][j][u'@start']): eval(labels[i][j][u'@end'])+1]])
-            except:
-                for l in range(len(labels[i][j])):
-
-                    if type(labels[i][j][l])==list:
-                        label_list[i].append([frames[i][j]] + [[labels[i][j][l][r][u'@name'], raw_text[i][eval(labels[i][j][l][r][u'@start']): eval(labels[i][j][l][r][u'@end'])+1]] for r in range(len(labels[i][j][l]))])
+            label_ls=[[frames[0]] + [labels[j][u'@name'], raw_text[eval(labels[j][u'@start']): eval(labels[j][u'@end'])+1]] for j in range(len(labels))]
+        except:
+            for j in range(len(labels)):
+                for l in range(len(labels[j])):
+                    if type(labels[j][l])==list:
+                        label_ls= [frames[j]] + [[labels[j][l][r][u'@name'], raw_text[eval(labels[j][l][r][u'@start']): eval(labels[j][l][r][u'@end'])+1]] for r in range(len(labels[j][l]))]
                     else:
-                        label_list[i].append([frames[i][j]] + [labels[i][j][l][u'@name'], raw_text[i][eval(labels[i][j][l][u'@start']): eval(labels[i][j][l][u'@end'])+1]])
+                        label_ls=[frames[i][j]] + [labels[i][j][l][u'@name'], raw_text[i][eval(labels[i][j][l][u'@start']): eval(labels[i][j][l][u'@end'])+1]]
+        return label_ls
+
+    for i in range(len(labels)):
+        try: label_list[i].append(make_label_list(labels[i], frames[i], raw_text[i]))
+        except: pass
+
 
     frame_dict={'fn-labels': label_list, 'text':raw_text}
     return frame_dict
