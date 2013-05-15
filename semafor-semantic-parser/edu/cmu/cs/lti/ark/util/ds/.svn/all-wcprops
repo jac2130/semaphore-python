@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/ds
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/ds/Pair.java
+END
+Range0Based.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/ds/Range0Based.java
+END
+Range.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/ds/Range.java
+END
+Range1Based.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/ds/Range1Based.java
+END
+ArrayUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/ds/ArrayUtil.java
+END
+IntArrayHashingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/ds/IntArrayHashingStrategy.java
+END

@@ -1,0 +1,27 @@
+1	this	this	DT	DT	_	2	SUB
+2	is	is	VBZ	VBZ	_	0	ROOT
+3	the	the	DT	DT	_	4	NMOD
+4	state	state	NN	NN	_	2	PRD
+5	that	that	WDT	WDT	_	4	NMOD
+6	recently	recently	RB	RB	_	7	VMOD
+7	passed	passed	VBD	VBD	_	5	SBAR
+8	the	the	DT	DT	_	12	NMOD
+9	prop.	prop.	NNP	NNP	_	12	NMOD
+10	65	65	CD	CD	_	12	NMOD
+11	anti-toxic	anti-toxic	JJ	JJ	_	12	NMOD
+12	initiative	initiative	NN	NN	_	7	OBJ
+13	.	.	.	.	_	2	P
+
+1	the	the	DT	DT	_	2	NMOD
+2	offer	offer	NN	NN	_	3	SUB
+3	has	has	VBZ	VBZ	_	0	ROOT
+4	an	an	DT	DT	_	6	NMOD
+5	indicated	indicated	VBN	VBN	_	6	NMOD
+6	value	value	NN	NN	_	3	OBJ
+7	of	of	IN	IN	_	6	NMOD
+8	$	$	$	$	_	7	P
+9	268	268	CD	CD	_	8	AMOD
+10	million	million	CD	CD	_	8	AMOD
+11	.	.	.	.	_	3	P
+
+*

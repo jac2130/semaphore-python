@@ -1,0 +1,9 @@
+Executable = clientServer.sh
+Universe = vanilla
+output = test_proj2.out
+error = test_proj2.error
+Log = test_proj2.log
+getenv = True
+Arguments = 0
+Rank = (machine == "malbec13.ark.cs.cmu.edu")
+Queue

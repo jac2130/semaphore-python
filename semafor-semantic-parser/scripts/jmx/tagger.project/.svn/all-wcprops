@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project
+END
+tagdict
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project/tagdict
+END
+model.param
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project/model.param
+END
+tagfeatures.contexts
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project/tagfeatures.contexts
+END
+tag.voc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project/tag.voc
+END
+word.voc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project/word.voc
+END
+model.info
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project/model.info
+END
+tagfeatures
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project/tagfeatures
+END
+tagfeatures.fmap
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/scripts/jmx/tagger.project/tagfeatures.fmap
+END

@@ -1,0 +1,27 @@
+1	this	this	DT	DT	_	0	SUB
+2	is	is	VBZ	VBZ	_	0	SUB
+3	a	a	DT	DT	_	0	SUB
+4	test	test	NN	NN	_	0	SUB
+5	for	for	IN	IN	_	0	SUB
+6	semafor	semafor	NNP	NNP	_	0	SUB
+7	,	,	,	,	_	0	SUB
+8	a	a	DT	DT	_	0	SUB
+9	frame-semantic	frame-semantic	JJ	JJ	_	0	SUB
+10	parser	parser	NN	NN	_	0	SUB
+11	.	.	.	.	_	0	SUB
+
+1	this	this	DT	DT	_	0	SUB
+2	is	is	VBZ	VBZ	_	0	SUB
+3	just	just	RB	RB	_	0	SUB
+4	a	a	DT	DT	_	0	SUB
+5	dummy	dummy	JJ	JJ	_	0	SUB
+6	line	line	NN	NN	_	0	SUB
+7	.	.	.	.	_	0	SUB
+
+1	there	there	EX	EX	_	0	SUB
+2	's	's	VBZ	VBZ	_	0	SUB
+3	a	a	DT	DT	_	0	SUB
+4	santa	santa	NNP	NNP	_	0	SUB
+5	claus	claus	NNP	NNP	_	0	SUB
+6	!	!	.	.	_	0	SUB
+

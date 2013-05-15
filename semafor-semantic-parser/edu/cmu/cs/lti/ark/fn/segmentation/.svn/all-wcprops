@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/segmentation
+END
+MoreRelaxedSegmenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/segmentation/MoreRelaxedSegmenter.java
+END
+RoteSegmenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/segmentation/RoteSegmenter.java
+END
+SegmentLargeUnlabeledSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/segmentation/SegmentLargeUnlabeledSet.java
+END
+CheckCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/segmentation/CheckCoverage.java
+END
+SegmentationScore.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/segmentation/SegmentationScore.java
+END
+SegTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/segmentation/SegTest.java
+END

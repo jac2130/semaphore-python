@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep
+END
+ParsePreparation.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/ParsePreparation.java
+END
+LexicalUnitsFrameExtraction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/LexicalUnitsFrameExtraction.java
+END
+FixTokenization.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/FixTokenization.java
+END
+AllAnnotationsMergingWithoutNE.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/AllAnnotationsMergingWithoutNE.java
+END
+OneLineDataCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/OneLineDataCreation.java
+END
+CreateUnlabeledData.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/CreateUnlabeledData.java
+END
+FramesSemEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/FramesSemEval.java
+END
+CoNLLInputPreparation.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/CoNLLInputPreparation.java
+END
+Frames.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/data/prep/Frames.java
+END

@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/559/trunk/edu/cmu/cs/lti/ark/fn/identification
+END
+RequiredDataCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/RequiredDataCreation.java
+END
+CombineAlphabets.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/CombineAlphabets.java
+END
+ExpandedSupModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/ExpandedSupModel.java
+END
+Graph.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/Graph.java
+END
+GetUnseenFELines.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/GetUnseenFELines.java
+END
+LRIdentificationModelHadoop.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/LRIdentificationModelHadoop.java
+END
+FrameIdentificationGoldTargets.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/FrameIdentificationGoldTargets.java
+END
+FrameIdentificationRelease.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/FrameIdentificationRelease.java
+END
+ConcatFEFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/ConcatFEFiles.java
+END
+IdentificationOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/IdentificationOptions.java
+END
+FrameIdentificationGoldTargetsGoldFrames.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/FrameIdentificationGoldTargetsGoldFrames.java
+END
+IdentificationModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/IdentificationModel.java
+END
+RunOptimization.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/RunOptimization.java
+END
+SelectBestGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/SelectBestGraph.java
+END
+ScanAdverbsAndAdjectives.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/ScanAdverbsAndAdjectives.java
+END
+ConvertAlphabetFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/ConvertAlphabetFile.java
+END
+AlphabetCreationExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/AlphabetCreationExecutor.java
+END
+TrainSGAModelDer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/TrainSGAModelDer.java
+END
+AlphabetCreationLessMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/AlphabetCreationLessMemory.java
+END
+OptimizeMapReduce.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/OptimizeMapReduce.java
+END
+NormalizeLinDekNeighbors.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/NormalizeLinDekNeighbors.java
+END
+FrameIdentificationDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/FrameIdentificationDecoder.java
+END
+TrainBatchModelDer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/TrainBatchModelDer.java
+END
+CountNumberOfRoles.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/CountNumberOfRoles.java
+END
+TrainBatchModelDerThreaded.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/TrainBatchModelDerThreaded.java
+END
+TestInterning.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/TestInterning.java
+END
+TrainBatchModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/TrainBatchModel.java
+END
+ConcatenateFEandParseFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/ConcatenateFEandParseFiles.java
+END
+CreateEventsUnsupported.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/CreateEventsUnsupported.java
+END
+SmoothedGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/SmoothedGraph.java
+END
+AlphabetCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/AlphabetCreation.java
+END
+AlphabetCreationThreaded.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/AlphabetCreationThreaded.java
+END
+RequiredDataForFrameIdentification.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/RequiredDataForFrameIdentification.java
+END
+LinDekNeighbors.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/LinDekNeighbors.java
+END
+IdentificationStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/IdentificationStats.java
+END
+WnCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/WnCache.java
+END
+ProduceLargerFrameDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/ProduceLargerFrameDistribution.java
+END
+ConvertGraphToSerObj.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/ConvertGraphToSerObj.java
+END
+FastFrameIdentifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/FastFrameIdentifier.java
+END
+AlphabetCreationUnsupported.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/AlphabetCreationUnsupported.java
+END
+LRIdentificationModelSingleNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/LRIdentificationModelSingleNode.java
+END
+GraphStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/GraphStats.java
+END
+IdentificationErrors.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/IdentificationErrors.java
+END
+WordNetRelationsCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/WordNetRelationsCache.java
+END
+FeatureExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/FeatureExtractor.java
+END
+CheckFEFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/CheckFEFile.java
+END
+TrainSGAModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/TrainSGAModel.java
+END
+FrameIdentificationReleaseMulticore.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/FrameIdentificationReleaseMulticore.java
+END
+ChooseBestFrames.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/ChooseBestFrames.java
+END
+WordNetCoverageCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/WordNetCoverageCheck.java
+END
+FrameIdentifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/identification/FrameIdentifier.java
+END

@@ -1,0 +1,441 @@
+0	Purpose	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Result	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Circumstances	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Desired_state	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Time	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Tester	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Place	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Degree	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Unwanted_characteristics	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Tested_property	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Means	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Period_of_iterations	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Duration	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Product	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+0	Manner	Operational_testing	3	3	0
+-1	-1
+0	0
+0	10
+1	1
+2	2
+2	3
+2	9
+3	3
+4	4
+4	9
+5	5
+5	9
+6	6
+7	7
+8	8
+9	9
+10	10
+
+1	Boundary	Boundary	5	5	1
+-1	-1
+0	0
+0	6
+1	1
+2	2
+2	5
+3	3
+4	4
+5	5
+6	6
+
+1	Entity	Boundary	5	5	1
+-1	-1
+0	0
+0	6
+1	1
+2	2
+2	5
+3	3
+4	4
+5	5
+6	6
+
+1	Relative_location	Boundary	5	5	1
+-1	-1
+0	0
+0	6
+1	1
+2	2
+2	5
+3	3
+4	4
+5	5
+6	6
+
+1	Entities	Boundary	5	5	1
+-1	-1
+0	0
+0	6
+1	1
+2	2
+2	5
+3	3
+4	4
+5	5
+6	6
+
+2	Place	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+
+2	Duration	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+
+2	Inherent_purpose	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+
+2	Entity	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+
+2	Point_of_view	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+
+2	Time	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+
+2	Circumstances	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+
+2	State	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+
+2	Cause	Existence	0	1	2
+-1	-1
+0	0
+0	5
+1	1
+1	5
+2	2
+2	4
+3	3
+4	4
+5	5
+

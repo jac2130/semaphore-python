@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization
+END
+Alphabet.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/Alphabet.java
+END
+LogLogisticRegressionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/LogLogisticRegressionModel.java
+END
+LazyLookupLogFormula.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/LazyLookupLogFormula.java
+END
+LogModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/LogModel.java
+END
+LDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/LDouble.java
+END
+LogFormula.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/LogFormula.java
+END
+SGA.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/SGA.java
+END
+RootLogFormula.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/RootLogFormula.java
+END
+LogMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/util/optimization/LogMath.java
+END

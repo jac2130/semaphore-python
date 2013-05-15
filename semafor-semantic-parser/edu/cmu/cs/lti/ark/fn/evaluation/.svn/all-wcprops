@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation
+END
+PaperEvaluation.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/PaperEvaluation.java
+END
+PositionStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/PositionStats.java
+END
+BestModelSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/BestModelSelection.java
+END
+SignificanceTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/SignificanceTests.java
+END
+PrintAllRelatedWords.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/PrintAllRelatedWords.java
+END
+ParseOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/ParseOptions.java
+END
+ParseUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/ParseUtils.java
+END
+BestModelSelectionArgID.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/BestModelSelectionArgID.java
+END
+PrepareFullAnnotationXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/evaluation/PrepareFullAnnotationXML.java
+END

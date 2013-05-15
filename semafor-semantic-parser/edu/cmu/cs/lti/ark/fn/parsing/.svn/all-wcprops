@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/563/trunk/edu/cmu/cs/lti/ark/fn/parsing
+END
+FrameElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/FrameElement.java
+END
+CreateAlphabet.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/CreateAlphabet.java
+END
+RequiredSlave.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/parsing/RequiredSlave.java
+END
+JointDecoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/parsing/JointDecoding.java
+END
+SpanAndCorrespondingFeatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/SpanAndCorrespondingFeatures.java
+END
+TrainingMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/TrainingMain.java
+END
+Rerank.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/Rerank.java
+END
+UniqueSpanSlave.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/parsing/UniqueSpanSlave.java
+END
+CandidateFrameElementFilters.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/CandidateFrameElementFilters.java
+END
+FEDict.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/FEDict.java
+END
+CreateAlphabetOracleSpans.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/CreateAlphabetOracleSpans.java
+END
+DataPrep.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/DataPrep.java
+END
+LocalFeatureReading.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/LocalFeatureReading.java
+END
+ReadTemp.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/ReadTemp.java
+END
+Combination.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/Combination.java
+END
+OverlapSlave.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/parsing/OverlapSlave.java
+END
+ExclusionSlave.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/parsing/ExclusionSlave.java
+END
+ParserDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/563/trunk/edu/cmu/cs/lti/ark/fn/parsing/ParserDriver.java
+END
+Slave.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/parsing/Slave.java
+END
+Training.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/Training.java
+END
+Decoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/559/trunk/edu/cmu/cs/lti/ark/fn/parsing/Decoding.java
+END
+FrameFeaturesCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/FrameFeaturesCache.java
+END
+TrainingBatchMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/TrainingBatchMain.java
+END
+GenCandidateFromConll.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/GenCandidateFromConll.java
+END
+DDDecoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/parsing/DDDecoding.java
+END
+JDecoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/parsing/JDecoding.java
+END
+CustomOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/CustomOptions.java
+END
+FeatureExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/FeatureExtractor.java
+END
+FrameFeatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/FrameFeatures.java
+END
+Feature.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/Feature.java
+END
+FEFileName.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/FEFileName.java
+END
+CreateAlphabetKBest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/parsing/CreateAlphabetKBest.java
+END
+DecodingMainArgs.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/559/trunk/edu/cmu/cs/lti/ark/fn/parsing/DecodingMainArgs.java
+END

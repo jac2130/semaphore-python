@@ -1,0 +1,9 @@
+#!/bin/sh
+
+root=/usr0/dipanjan/work/fall2008/MSTServer/MSTParserStackedServer
+cd $root
+
+echo "Compiling Client Program"
+javac -classpath ".:./lib/trove.jar:./lib/mallet.jar:./lib/mallet-deps.jar" mst/DependencyClient.java
+echo "Running Client Program"
+java -classpath ".:./lib/trove.jar:./lib/mallet.jar:./lib/mallet-deps.jar" mst.DependencyClient $root/data/wsj-02-21.part.CONLL $root/data.out.txt 12345

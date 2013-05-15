@@ -1,0 +1,9 @@
+#!/bin/sh
+
+root=/Users/dipanjand/Documents/work/fall2008/ravine/MSTServer
+cd $root
+
+echo "Compiling Server Program"
+javac -classpath ".:./lib/trove.jar:./lib/mallet.jar:./lib/mallet-deps.jar" mst/DependencyEnglish2OProjParser.java
+echo "Running Server Program"
+java -classpath ".:./lib/trove.jar:./lib/mallet.jar:./lib/mallet-deps.jar" mst.DependencyEnglish2OProjParser $root/models/wsj-02-21.part.CONLL.model tmp/ 12345

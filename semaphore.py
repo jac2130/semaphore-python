@@ -1,0 +1,65 @@
+
+import re, sys, os
+
+
+#getting the directories which are set by the user in the config file (located in the release directory).
+
+from directories import *
+
+def run_semaphore(semaphore=release, command='./fnParserDriver.sh', sample='../samples/sample.txt', output= '../samples/output.txt'):
+    #"./fnParserDriver.sh" is an unwieldy bash script that I'm hoping to replace entirely with python code soon, in order to have fine
+    #control of the behavior of semaphore from python. But this is still relatively low on my list of priorities.
+
+    os.chdir(semaphore)
+
+    os.system(command + ' ' + sample + " " + output)
+
+
+def import_semaphore(xml=output):
+
+    '''
+    Takes the xml output that results from running the Semaphore program and returns a python object.
+    '''
+    from collections import OrderedDict
+    import xmltodict
+    f=open(xml, 'r').read()
+    raw_dict=xmltodict.parse(f)
+
+    #cutting the initial layers of an unwieldy xml dictionary with far too many xml tags, as we are assuming a list of sentences:
+    raw_list=raw_dict[u'corpus'][u'documents'][u'document'][u'paragraphs'][u'paragraph'][u'sentences'][u'sentence']
+    raw_text=[str(raw_list[i][u'text']) for i in range(len(raw_list))]
+
+    raw_list=[raw_list[i][u'annotationSets'][u'annotationSet'] for i in range(len(raw_list))] #cleaning it up further
+
+    def get_frame_names(list_or_dict, keys=['@frameName']):
+        #This is a function that deals with the uncertainty of whether we are getting a list or dictionary here (the xml output of semaphore is quite unwieldy)
+        try:
+            return [str(list_or_dict[j][key]) for j in range(len(list_or_dict)) for key in keys] #in case that it is a list
+        except KeyError:
+            try:
+                return [str(list_or_dict[key]) for key in keys] #in case that it is a dictionary
+            except:
+                return [[str(list_or_dict[j][r][key]) for r in range(len(list_or_dict[j])) if raw_list[i][j][r][u'labels']!=None ] for j in range(len(list_or_dict)) for key in keys]
+
+    frames=[get_frame_names(raw_list[i]) for i in range(len(raw_list))]
+
+    layers=[eval(dictionary)['layer'] for dictionary in get_frame_names(raw_list[i], keys=['layers']) for i in range(len(raw_list))]
+
+    labels=[[eval(dictionary)['label'] for dictionary in get_frame_names(layers[i], keys=['labels'])] for i in range(len(raw_list))]
+
+    label_list=[[] for i in range(len(labels))]
+    for i in range(len(labels)):
+        for j in range(len(labels[i])):
+            try:
+                #This try statement is executed if there is only one frame in the sentence.
+                label_list[i].append([frames[i][0]] + [labels[i][j][u'@name'], raw_text[i][eval(labels[i][j][u'@start']): eval(labels[i][j][u'@end'])+1]])
+            except:
+                for l in range(len(labels[i][j])):
+
+                    if type(labels[i][j][l])==list:
+                        label_list[i].append([frames[i][j]] + [[labels[i][j][l][r][u'@name'], raw_text[i][eval(labels[i][j][l][r][u'@start']): eval(labels[i][j][l][r][u'@end'])+1]] for r in range(len(labels[i][j][l]))])
+                    else:
+                        label_list[i].append([frames[i][j]] + [labels[i][j][l][u'@name'], raw_text[i][eval(labels[i][j][l][u'@start']): eval(labels[i][j][l][u'@end'])+1]])
+
+
+    return label_list

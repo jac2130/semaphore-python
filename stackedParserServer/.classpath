@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/dipanjand/Documents/work/fall2008/ravine/MSTServer/lib/trove.jar"/>
+	<classpathentry kind="lib" path="/Users/dipanjand/Documents/work/fall2008/ravine/MSTServer/lib/mallet.jar"/>
+	<classpathentry kind="lib" path="/Users/dipanjand/Documents/work/fall2008/ravine/MSTServer/lib/mallet-deps.jar"/>
+	<classpathentry kind="lib" path="/Users/dipanjand/Documents/work/fall2008/ravine/MSTServer/lib/ant.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/utils
+END
+LemmatizeStuff.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/utils/LemmatizeStuff.java
+END
+FNModelOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/utils/FNModelOptions.java
+END
+BitOps.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/561/trunk/edu/cmu/cs/lti/ark/fn/utils/BitOps.java
+END
+ThreadPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/utils/ThreadPool.java
+END
+DataPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/utils/DataPoint.java
+END
+CustomDependencyParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/utils/CustomDependencyParse.java
+END
+BasicIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/utils/BasicIO.java
+END
+DataPointWithElements.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/utils/DataPointWithElements.java
+END

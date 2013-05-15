@@ -1,0 +1,9 @@
+#!/bin/sh
+
+root=/usr0/dipanjan/work/fall2008/MSTServer/MSTParserStackedServer
+cd $root
+
+echo "Compiling Server Program"
+javac -classpath ".:./lib/trove.jar:./lib/mallet.jar:./lib/mallet-deps.jar" mst/DependencyEnglish2OProjParser.java
+echo "Running Server Program"
+java -classpath ".:./lib/trove.jar:./lib/mallet.jar:./lib/mallet-deps.jar" mst.DependencyEnglish2OProjParser $root/models/wsj-02-21.part.CONLL.model 12345

@@ -1,0 +1,11 @@
+Running Server
+/usr2/dipanjan/experiments/MSTServer
+Compiling Server Program
+Running Server Program
+No. Features: 21538552
+No. Stacked Features: 0
+No. Word+Feat Features: 5108186
+L1 norm of weight vector: 473595.29084681114
+L1 norm of weight stacked subvector: 0.0
+L1 norm of weight word+feat subvector: 92260.68843005798
+Processing Sentence: 1 2 Took: 1340

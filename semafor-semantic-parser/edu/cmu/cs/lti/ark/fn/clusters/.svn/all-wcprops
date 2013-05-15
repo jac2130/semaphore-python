@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/559/trunk/edu/cmu/cs/lti/ark/fn/clusters
+END
+OneLineParseFromConvertedParses.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/clusters/OneLineParseFromConvertedParses.java
+END
+ConversionErrors.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/clusters/ConversionErrors.java
+END
+ParseFixer.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/clusters/ParseFixer.java
+END
+ScrapTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/48/trunk/edu/cmu/cs/lti/ark/fn/clusters/ScrapTest.java
+END
+DependencyParsesCaching.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/clusters/DependencyParsesCaching.java
+END
+FilterNewLines.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/clusters/FilterNewLines.java
+END
+AllPossibleSpansSemEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/clusters/AllPossibleSpansSemEval.java
+END
+TestDependencyParses.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/clusters/TestDependencyParses.java
+END
+StoreWordClusters.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/edu/cmu/cs/lti/ark/fn/clusters/StoreWordClusters.java
+END
