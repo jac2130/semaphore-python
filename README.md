@@ -30,7 +30,7 @@ The output is a list of python dictionaries, "frames", where frames[i]['text'] i
 
 ####Note that you can also run the program on both a string and a list of files:
 
-      	frames = semaphore("Hello World. The following will be from files", files=file_paths)
+      frames = semaphore("Hello World. The following will be from files", files=file_paths)
 
 ####If you run semaphore empty, it will run on a supplied example file, like so:
 
