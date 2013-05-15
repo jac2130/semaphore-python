@@ -114,7 +114,12 @@ def semaphore(text='', files='', semaphore=release):
         #I just name the newly cleaned file by the name of the first file in the file list + "_clean":
         sample='../samples/' + files[0].split('/')[-1][:-4] + '_clean.txt'
 
-    clean_raw_text(text, file_name=sample)
+    if text:
+        clean_raw_text(text, file_name=sample)
+
+    else:
+        sample='../samples/sample.txt'
+
     run_semaphore(semaphore=semaphore, sample=sample)
 
     return import_semaphore()
