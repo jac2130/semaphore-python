@@ -30,15 +30,15 @@ The output is a list of python dictionaries, "frames", where frames[i]['text'] i
 
 ####Note that you can also run the program on both a string and a list of files:
 
-      frames = semaphore("Hello World. The following will be from files", files=file_paths)
+    frames = semaphore("Hello World. The following will be from files", files=file_paths)
 
 ####If you run semaphore empty, it will run on a supplied example file, like so:
 
-    	frames =semaphore()
+    frames =semaphore()
 
 ####Seperating running the semaphore program and later loading of the xml files as a list of python dictionaries:
 
-	run_semaphore(sample=file_path)
+    run_semaphore(sample=file_path)
 
 runs semaphore on a single file with path "file_path" and stores the xml file with the frame labels. You can later load in the frames as a python object, provided that you have not run semaphore on other files or strings in the meantime:
 
