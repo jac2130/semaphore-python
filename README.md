@@ -42,4 +42,4 @@ The output is a list of python dictionaries, "frames", where frames[i]['text'] i
 
 runs semaphore on a single file with path "file_path" and stores the xml file with the frame labels. You can later load in the frames as a python object, provided that you have not run semaphore on other files or strings in the meantime:
 
-     	frames = import_semaphore()
+    frames = import_semaphore()
