@@ -32,11 +32,11 @@ The output is a list of python dictionaries, "frames", where frames[i]['text'] i
 
       	frames = semaphore("Hello World. The following will be from files", files=file_paths)
 
-#If you run semaphore empty, it will run on a supplied example file, like so:
+###If you run semaphore empty, it will run on a supplied example file, like so:
 
     	frames =semaphore()
 
-#Seperating running the semaphore program and later loading in the xml files as a list of python dictionaries:
+###Seperating running the semaphore program and later loading in the xml files as a list of python dictionaries:
 
 	run_semaphore(sample=file_path)
 
