@@ -55,7 +55,7 @@ def import_semaphore(xml=output):
             try:
                 return [str(list_or_dict[key]) for key in keys] #in case that it is a dictionary
             except:
-                return [[str(list_or_dict[j][r][key]) for r in range(len(list_or_dict[j])) if raw_list[i][j][r][u'labels']!=None ] for j in range(len(list_or_dict)) for key in keys]
+                return [[str(list_or_dict[j][r][key]) for r in range(len(list_or_dict[j])) if list_or_dict[j][r][u'labels']!=None ] for j in range(len(list_or_dict)) for key in keys]
 
     frames=[get_frame_names(raw_list[i]) for i in range(len(raw_list))]
 
