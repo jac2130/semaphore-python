@@ -43,43 +43,63 @@ def import_semaphore(xml=output):
     try: raw_list=[annotationSets(raw_list[i]) for i in range(len(raw_list))] #cleaning it up further
     except: raw_list=[annotationSets(raw_list)]
 
-    def get_frame_names(list_or_dict, keys=['@frameName']):
+    def get_frames(list_or_dict, raw_text):
         #This is a function that deals with the uncertainty of whether we are getting a list or dictionary here (the xml output of semaphore is quite unwieldy)
 
-        if not list_or_dict: #in the case that it is empty
-            return []
+        if not list_or_dict: #in the case that it is empty (no frames)
+            return {}
+
+        def de_nest(d, raw_text):
+            try:
+                return {str(d['labels']['label']['@name']): raw_text[eval(d['labels']['label']['@start']): eval(d['labels']['label']['@end']) + 1]}
+            except:
+                return {str(r['@name']): raw_text[eval(r['@start']): eval(r['@end']) +1] for r in d['labels']['label']}
 
         try:
-            return [str(list_or_dict[j][key]) for j in range(len(list_or_dict)) for key in keys] #in case that it is a list
+            return {str(list_or_dict[j]['@frameName']): [de_nest(d, raw_text) for d in list_or_dict[j]['layers']['layer']] for j in range(len(list_or_dict))}
+
+#[str(list_or_dict[j][key]) for j in range(len(list_or_dict)) for key in keys] #in case that it is a list (when there are j frames)
         except KeyError:
             try:
-                return [str(list_or_dict[key]) for key in keys] #in case that it is a dictionary
+                return {str(list_or_dict['@frameName']): [de_nest(d, raw_text) for d in list_or_dict['layers']['layer']]} #in case that there is only one frame
             except:
-                return [[str(list_or_dict[j][r][key]) for r in range(len(list_or_dict[j])) if list_or_dict[j][r][u'labels']!=None ] for j in range(len(list_or_dict)) for key in keys]
+                frames={}
+                for j in range(len(list_or_dict)):
+                    for r in range(len(list_or_dict[j])):
+                        if list_or_dict[j][r][u'labels']!=None:
+                            frames[str(list_or_dict[j][r]['@frameName'])]=[de_nest(d, raw_text) for d in list_or_dict[j][r]['layers']['layer']]
+                return frames
 
-    frames=[get_frame_names(raw_list[i]) for i in range(len(raw_list))]
+                #The version before before latest fix:   [[str(list_or_dict[j][r][key]) for r in range(len(list_or_dict[j])) if list_or_dict[j][r][u'labels']!=None ] for j in range(len(list_or_dict)) for key in keys]
 
-    layers=[[eval(dictionary)['layer'] for dictionary in get_frame_names(raw_list[i], keys=['layers'])][0] for i in range(len(raw_list))]
 
-    labels=[[eval(dictionary)['label'] for dictionary in get_frame_names(layers[i], keys=['labels'])] for i in range(len(raw_list))]
 
-    frame_dict=[{} for i in range(len(labels))]
-    def make_label_list(labels, frames, raw_text):
-        label_ls=[]
-        try:
+
+
+
+    #frames=[get_frame_names(raw_list[i]) for i in range(len(raw_list))]
+
+#    layers=[[eval(dictionary)['layer'] for dictionary in get_frame_names(raw_list[i], keys=['layers'])][0] for i in range(len(raw_list))]
+
+ #   labels=[[eval(dictionary)['label'] for dictionary in get_frame_names(layers[i], keys=['labels'])] for i in range(len(raw_list))]
+
+   # frame_dict=[{} for i in range(len(labels))]
+   # def make_label_list(labels, frames, raw_text):
+    #    label_ls=[]
+     #   try:
                 #This try statement is executed if there is only one frame in the sentence.
-            label_ls=[[frames[0]] + [labels[j][u'@name'], raw_text[eval(labels[j][u'@start']): eval(labels[j][u'@end'])+1]] for j in range(len(labels))]
-        except:
-            for j in range(len(labels)):
-                for l in range(len(labels[j])):
-                    if type(labels[j][l])==list:
-                        label_ls= [frames[j]] + [[labels[j][l][r][u'@name'], raw_text[eval(labels[j][l][r][u'@start']): eval(labels[j][l][r][u'@end'])+1]] for r in range(len(labels[j][l]))]
-                    else:
-                        label_ls=[frames[i][j]] + [labels[i][j][l][u'@name'], raw_text[i][eval(labels[i][j][l][u'@start']): eval(labels[i][j][l][u'@end'])+1]]
-        return label_ls
+      #      label_ls=[[frames[0]] + [labels[j][u'@name'], raw_text[eval(labels[j][u'@start']): eval(labels[j][u'@end'])+1]] for j in range(len(labels))]
+       # except:
+        #    for j in range(len(labels)):
+         #       for l in range(len(labels[j])):
+          #          if type(labels[j][l])==list:
+           #             label_ls= [frames[j]] + [[labels[j][l][r][u'@name'], raw_text[eval(labels[j][l][r][u'@start']): eval(labels[j][l][r][u'@end'])+1]] for r in range(len(labels[j][l]))]
+            #        else:
+             #           label_ls=[frames[i][j]] + [labels[i][j][l][u'@name'], raw_text[i][eval(labels[i][j][l][u'@start']): eval(labels[i][j][l][u'@end'])+1]]
+     #   return label_ls
 
-    for i in range(len(labels)):
-        try: frame_dict[i]['fn-labels'] =make_label_list(labels[i], frames[i], raw_text[i])
+    for i in range(len(raw_list)):
+        try: frame_dict[i]['fn-labels'] =get_frames(raw_list[i], raw_text[i])
         except: pass
 
         frame_dict[i]['text']=raw_text[i]
