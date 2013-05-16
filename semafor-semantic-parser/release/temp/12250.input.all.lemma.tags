@@ -1,0 +1,3 @@
+11	This	is	a	test	for	SEMAFOR	,	a	frame-semantic	parser	.	DT	VBZ	DT	NN	IN	NNP	,	DT	JJ	NN	.	SUB	ROOT	NMOD	PRD	NMOD	NMOD	P	NMOD	NMOD	PMOD	P	2	0	4	2	4	10	10	10	10	5	2	O	O	O	O	O	O	O	O	O	O	O	this	be	a	test	for	semafor	,	a	semantic	parser	.
+7	This	is	just	a	dummy	line	.	DT	VBZ	RB	DT	JJ	NN	.	SUB	ROOT	NMOD	NMOD	NMOD	PRD	P	2	0	6	6	6	2	2	O	O	O	O	O	O	O	this	be	just	a	dummy	line	.
+6	There	's	a	Santa	Claus	!	EX	VBZ	DT	NNP	NNP	.	SUB	ROOT	NMOD	NMOD	PRD	P	2	0	5	5	2	2	O	O	O	O	O	O	there	be	a	santa	claus	!

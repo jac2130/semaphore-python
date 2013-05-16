@@ -1,0 +1,22 @@
+1	today	today	NN	NN	_	0	SUB
+2	was	was	VBD	VBD	_	0	SUB
+3	a	a	DT	DT	_	0	SUB
+4	pretty	pretty	RB	RB	_	0	SUB
+5	good	good	JJ	JJ	_	0	SUB
+6	day	day	NN	NN	_	0	SUB
+7	!	!	.	.	_	0	SUB
+
+1	i	i	PRP	PRP	_	0	SUB
+2	think	think	VBP	VBP	_	0	SUB
+3	i	i	PRP	PRP	_	0	SUB
+4	want	want	VBP	VBP	_	0	SUB
+5	to	to	TO	TO	_	0	SUB
+6	have	have	VB	VB	_	0	SUB
+7	one	one	CD	CD	_	0	SUB
+8	just	just	RB	RB	_	0	SUB
+9	like	like	IN	IN	_	0	SUB
+10	that	that	DT	DT	_	0	SUB
+11	tomorrow	tomorrow	NN	NN	_	0	SUB
+12	again	again	RB	RB	_	0	SUB
+13	.	.	.	.	_	0	SUB
+

@@ -1,0 +1,11 @@
+1	i	i	PRP	PRP	-	3	SUB	-	-
+2	just	just	RB	RB	-	3	VMOD	-	-
+3	went	went	VBD	VBD	-	8	VMOD	-	-
+4	to	to	TO	TO	-	3	VMOD	-	-
+5	the	the	DT	DT	-	6	NMOD	-	-
+6	market	market	NN	NN	-	4	PMOD	-	-
+7	and	and	CC	CC	-	8	VMOD	-	-
+8	saw	saw	VBD	VBD	-	0	ROOT	-	-
+9	my	my	PRP$	PRP$	-	10	NMOD	-	-
+10	friend	friend	NN	NN	-	8	OBJ	-	-
+

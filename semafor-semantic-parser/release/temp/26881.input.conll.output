@@ -1,0 +1,22 @@
+1	today	today	NN	NN	-	2	SUB	-	-
+2	was	was	VBD	VBD	-	0	ROOT	-	-
+3	a	a	DT	DT	-	6	NMOD	-	-
+4	pretty	pretty	RB	RB	-	5	AMOD	-	-
+5	good	good	JJ	JJ	-	6	NMOD	-	-
+6	day	day	NN	NN	-	2	PRD	-	-
+7	!	!	.	.	-	2	P	-	-
+
+1	i	i	PRP	PRP	-	2	SUB	-	-
+2	think	think	VBP	VBP	-	0	ROOT	-	-
+3	i	i	PRP	PRP	-	4	SUB	-	-
+4	want	want	VBP	VBP	-	2	VMOD	-	-
+5	to	to	TO	TO	-	6	VMOD	-	-
+6	have	have	VB	VB	-	4	VMOD	-	-
+7	one	one	CD	CD	-	9	PMOD	-	-
+8	just	just	RB	RB	-	9	PMOD	-	-
+9	like	like	IN	IN	-	11	NMOD	-	-
+10	that	that	DT	DT	-	9	PMOD	-	-
+11	tomorrow	tomorrow	NN	NN	-	6	VMOD	-	-
+12	again	again	RB	RB	-	6	VMOD	-	-
+13	.	.	.	.	-	2	P	-	-
+

@@ -1,0 +1,7 @@
+0	2	Calendric_unit	today.n	0	Today	0	Unit	0
+0	3	Desirability	good.j	4	good	0	Evaluee	5	Degree	3
+0	2	Calendric_unit	day.n	5	day	0	Unit	5
+0	3	Opinion	think.v	1	think	1	Cognizer	0	Opinion	2:11
+0	3	Desiring	want.v	3	want	1	Experiencer	2	Event	4:11
+0	2	Cardinal_numbers	one.c	6	one	1	Number	6
+0	3	Calendric_unit	tomorrow.n	10	tomorrow	1	Unit	10	Relative_time	6:9
