@@ -59,7 +59,7 @@ def import_semaphore(xml=output):
 
     frames=[get_frame_names(raw_list[i]) for i in range(len(raw_list))]
 
-    layers=[eval(dictionary)['layer'] for dictionary in get_frame_names(raw_list[i], keys=['layers']) for i in range(len(raw_list))]
+    layers=[[eval(dictionary)['layer'] for dictionary in get_frame_names(raw_list[i], keys=['layers'])][0] for i in range(len(raw_list))]
 
     labels=[[eval(dictionary)['label'] for dictionary in get_frame_names(layers[i], keys=['labels'])] for i in range(len(raw_list))]
 
