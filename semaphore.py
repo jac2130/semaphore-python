@@ -73,33 +73,6 @@ def import_semaphore(xml=output):
                             frames[str(list_or_dict[j][r]['@frameName'])]=[de_nest(d, raw_text) for d in list_or_dict[j][r]['layers']['layer']]
                 return frames
 
-                #The version before before latest fix:   [[str(list_or_dict[j][r][key]) for r in range(len(list_or_dict[j])) if list_or_dict[j][r][u'labels']!=None ] for j in range(len(list_or_dict)) for key in keys]
-
-
-
-
-
-
-    #frames=[get_frame_names(raw_list[i]) for i in range(len(raw_list))]
-
-#    layers=[[eval(dictionary)['layer'] for dictionary in get_frame_names(raw_list[i], keys=['layers'])][0] for i in range(len(raw_list))]
-
- #   labels=[[eval(dictionary)['label'] for dictionary in get_frame_names(layers[i], keys=['labels'])] for i in range(len(raw_list))]
-
-   # frame_dict=[{} for i in range(len(labels))]
-   # def make_label_list(labels, frames, raw_text):
-    #    label_ls=[]
-     #   try:
-                #This try statement is executed if there is only one frame in the sentence.
-      #      label_ls=[[frames[0]] + [labels[j][u'@name'], raw_text[eval(labels[j][u'@start']): eval(labels[j][u'@end'])+1]] for j in range(len(labels))]
-       # except:
-        #    for j in range(len(labels)):
-         #       for l in range(len(labels[j])):
-          #          if type(labels[j][l])==list:
-           #             label_ls= [frames[j]] + [[labels[j][l][r][u'@name'], raw_text[eval(labels[j][l][r][u'@start']): eval(labels[j][l][r][u'@end'])+1]] for r in range(len(labels[j][l]))]
-            #        else:
-             #           label_ls=[frames[i][j]] + [labels[i][j][l][u'@name'], raw_text[i][eval(labels[i][j][l][u'@start']): eval(labels[i][j][l][u'@end'])+1]]
-     #   return label_ls
     frame_dict=[{} for i in range(len(raw_list))]
     for i in range(len(raw_list)):
         try: frame_dict[i]['fn-labels'] =get_frames(raw_list[i], raw_text[i])
