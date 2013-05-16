@@ -51,7 +51,10 @@ def import_semaphore(xml=output):
 
         def de_nest(d, raw_text):
             try:
-                return {str(d['labels']['label']['@name']): raw_text[eval(d['labels']['label']['@start']): eval(d['labels']['label']['@end']) + 1]}
+                if d['labels']!=None:
+                    return {str(d['labels']['label']['@name']): raw_text[eval(d['labels']['label']['@start']): eval(d['labels']['label']['@end']) + 1]}
+                else:
+                    return {}
             except:
                 return {str(r['@name']): raw_text[eval(r['@start']): eval(r['@end']) +1] for r in d['labels']['label']}
 
@@ -97,10 +100,10 @@ def import_semaphore(xml=output):
             #        else:
              #           label_ls=[frames[i][j]] + [labels[i][j][l][u'@name'], raw_text[i][eval(labels[i][j][l][u'@start']): eval(labels[i][j][l][u'@end'])+1]]
      #   return label_ls
-
+    frame_dict=[{} for i in range(len(raw_list))]
     for i in range(len(raw_list)):
         try: frame_dict[i]['fn-labels'] =get_frames(raw_list[i], raw_text[i])
-        except: pass
+        except: frame_dict[i]['fn-labels']={}
 
         frame_dict[i]['text']=raw_text[i]
 
