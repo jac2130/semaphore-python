@@ -4,15 +4,23 @@
 A python wrapper for Semaphore, a Shallow Semantic Parser that identifies roles in a text.
 
 semaphore-python
+
 Copyright (C) 2013
+
 Johannes Castner
+
 jac2130@columbia.edu
+
 http://www.columbia.edu/~jac2130
 
 SEMAFOR (a frame-semantic parser for English)
+
 Copyright (C) 2012
+
 Dipanjan Das, Andre Martins, Nathan Schneider, Desai Chen, & Noah A. Smith
+
 Language Technologies Institute, Carnegie Mellon University
+
 http://www.ark.cs.cmu.edu/SEMAFOR
 
 This program is free software: you can redistribute it and/or modify
