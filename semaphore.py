@@ -7,9 +7,11 @@ import re, sys, os
 from directories import *
 
 def run_semaphore(semaphore=release, command='./fnParserDriver.sh', sample='../samples/sample.txt', output= '../samples/output.txt'):
-    #This function produces an xml file containing the frame-net style frames.
-    #"./fnParserDriver.sh" is an unwieldy bash script that I'm hoping to replace entirely with python code soon, in order to have fine
-    #control of the behavior of semaphore from python. But this is still relatively low on my list of priorities.
+    '''
+    This function produces an xml file containing the frame-net style frames.
+    "./fnParserDriver.sh" is an unwieldy bash script that I'm hoping to replace entirely with python code soon, in order to have fine
+    control of the behavior of semaphore from python. But this is still relatively low on my list of priorities.
+    '''
 
     os.chdir(semaphore)
 
@@ -61,10 +63,11 @@ def import_semaphore(xml=output):
         try:
             return {str(list_or_dict[j]['@frameName']): [de_nest(d, raw_text) for d in list_or_dict[j]['layers']['layer']] for j in range(len(list_or_dict))}
 
-#[str(list_or_dict[j][key]) for j in range(len(list_or_dict)) for key in keys] #in case that it is a list (when there are j frames)
+         #in case that it is a list (when there are j frames)
         except KeyError:
             try:
-                return {str(list_or_dict['@frameName']): [de_nest(d, raw_text) for d in list_or_dict['layers']['layer']]} #in case that there is only one frame
+                return {str(list_or_dict['@frameName']): [de_nest(d, raw_text) for d in list_or_dict['layers']['layer']]}
+         #in case that there is only one frame
             except:
                 frames={}
                 for j in range(len(list_or_dict)):
@@ -83,7 +86,10 @@ def import_semaphore(xml=output):
     return frame_dict
 
 def clean_raw_text(text, file_name=''):
-    #cleans all text input and places the cleaned text in the 'samples' folder, one line at the time (as required by semaphore).
+
+    '''
+    cleans all text input and places the cleaned text in the 'samples' folder, one line at the time (as required by semaphore).
+    '''
 
     import re
     import nltk, nltk.data
@@ -101,6 +107,10 @@ def clean_raw_text(text, file_name=''):
 
 
 def semaphore(text='', files='', semaphore=release):
+    '''
+    This function takes a string or a list of file path names and outputs a python data structure containing semantic frames for each
+    sentence (the text can be completely raw).
+    '''
     os.chdir(semaphore)
 
     if text:
