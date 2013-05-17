@@ -3,6 +3,8 @@
 
 A python wrapper for Semaphore, a Shallow Semantic Parser that identifies roles in a text.
 
+for any questions, suggestions, or feedback, please e-mail me: jac2130@columbia.edu
+
 #How it can be used:
 
 The detailed description of what Semaphore is and does, i.e, a description of its current scientific uses can be found here: [http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00163].
