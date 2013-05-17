@@ -3,40 +3,6 @@
 
 A python wrapper for Semaphore, a Shallow Semantic Parser that identifies roles in a text.
 
-semaphore-python
-
-Copyright (C) 2013
-
-Johannes Castner
-
-jac2130@columbia.edu
-
-http://www.columbia.edu/~jac2130
-
-SEMAFOR (a frame-semantic parser for English)
-
-Copyright (C) 2012
-
-Dipanjan Das, Andre Martins, Nathan Schneider, Desai Chen, & Noah A. Smith
-
-Language Technologies Institute, Carnegie Mellon University
-
-http://www.ark.cs.cmu.edu/SEMAFOR
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-
 #How it can be used:
 
 The detailed description of what Semaphore is and does, i.e, a description of its current scientific uses can be found here: [http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00163].
