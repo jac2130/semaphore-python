@@ -79,11 +79,11 @@ def import_semaphore(xml=output):
         def de_nest(d, raw_text):
             try:
                 if d['labels']!=None:
-                    return {str(d['labels']['label']['@name']): raw_text[eval(d['labels']['label']['@start']): eval(d['labels']['label']['@end']) + 1]}
+                    return [(str(d['labels']['label']['@name']), raw_text[eval(d['labels']['label']['@start']): eval(d['labels']['label']['@end']) + 1])]
                 else:
-                    return {}
+                    return []
             except:
-                return {str(r['@name']): raw_text[eval(r['@start']): eval(r['@end']) +1] for r in d['labels']['label']}
+                return [(str(r['@name']), raw_text[eval(r['@start']): eval(r['@end']) +1]) for r in d['labels']['label']]
 
         try:
             return {str(list_or_dict[j]['@frameName']): [de_nest(d, raw_text) for d in list_or_dict[j]['layers']['layer']] for j in range(len(list_or_dict))}
