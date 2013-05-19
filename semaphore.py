@@ -90,16 +90,9 @@ def import_semaphore(xml=output):
 
          #in case that it is a list (when there are j frames)
         except KeyError:
-            try:
-                return {str(list_or_dict['@frameName']): dict([de_nest(d, raw_text)[l] for d in list_or_dict['layers']['layer'] for l in range(len(de_nest(d, raw_text)))])}
-         #in case that there is only one frame
-            except:
-                frames={}
-                for j in range(len(list_or_dict)):
-                    for r in range(len(list_or_dict[j])):
-                        if list_or_dict[j][r][u'labels']!=None:
-                            frames[str(list_or_dict[j][r]['@frameName'])]=dict([de_nest(d, raw_text)[l] for d in list_or_dict[j][r]['layers']['layer'] for l in range(len(de_nest(d, raw_text)))])
-                return frames
+
+            return {str(list_or_dict['@frameName']): dict([de_nest(d, raw_text)[l] for d in list_or_dict['layers']['layer'] for l in range(len(de_nest(d, raw_text)))])}
+
 
     frame_dict=[{} for i in range(len(raw_list))]
     for i in range(len(raw_list)):
