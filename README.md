@@ -24,7 +24,12 @@ where "file_paths" is a python list of file paths in the form of
 
     file_path=['/my_path1/text1.txt', 'my_path2/text2.txt', ...etc.]
 
-The output is a list of python dictionaries, "frames", where frames[i]['text'] is a text string of the i's sentence and where frames[i]['fn-labels'] is a list of list of frames found in that sentence (frame labels and their associated concepts and relations).
+The output is a list of python dictionaries, "frames", where frames[i]['text'] is a text string of the i's sentence and where frames[i]['fn-labels'] is a python dictionary of dictionaries (equivalent to a graph), with Frame-Net style frame labels as keys of the outer dictionary, frame element labels as keys of the inner dictionary and raw frame elements which are found in that particular sentence as values of the inner dictionary. An example:
+
+    >>> frames[11]['text']
+    'Air quality issues vary by region .'
+    >>> frames[11]['fn-labels']
+    {'Locale': {'Locale': 'region', 'Target': 'region'},	'Expressing_publicly': {'Target': 'Air'}, 'Point_of_dispute': {'Target': 'issues'}, 'Similarity': {'Entities': 'Air quality issues', 'Target': 'vary'}}
 
 #To run the program on a string:
 
