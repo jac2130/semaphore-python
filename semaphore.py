@@ -31,17 +31,22 @@ import re, sys, os
 
 from directories import *
 
-def run_semaphore(semaphore=release, command='./fnParserDriver.sh', sample='../samples/sample.txt', output= '../samples/output.txt'):
+os.chdir(here)
+
+def run_semaphore(release=release, command='./fnParserDriver.sh', sample='../samples/sample.txt', output= '../samples/output.txt'):
     '''
     This function produces an xml file containing the frame-net style frames.
     "./fnParserDriver.sh" is an unwieldy bash script that I'm hoping to replace entirely with python code soon, in order to have fine
     control of the behavior of semaphore from python. But this is still relatively low on my list of priorities.
     '''
 
-    os.chdir(semaphore)
+    try:
+        os.chdir(release)
 
-    os.system(command + ' ' + sample + " " + output)
-
+        os.system(command + ' ' + sample + " " + output)
+    finally:
+        #to make sure that we are in the directory in which semaphore.py is stored.
+        os.chdir(here)
 
 def import_semaphore(xml=output):
 
@@ -50,8 +55,9 @@ def import_semaphore(xml=output):
     '''
     from collections import OrderedDict
     import xmltodict
-    f=open(xml, 'r').read()
-    raw_dict=xmltodict.parse(f)
+
+    with open(xml, 'r') as f:
+        raw_dict=xmltodict.parse(f.read())
 
     #cutting the initial layers of an unwieldy xml dictionary with far too many xml tags, as we are assuming a list of sentences:
     raw_list=raw_dict[u'corpus'][u'documents'][u'document'][u'paragraphs'][u'paragraph'][u'sentences'][u'sentence']

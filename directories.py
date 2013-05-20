@@ -1,6 +1,10 @@
 #First, we read the directories from the config file into python:
-import re
-directories={line.split('=')[0]:line.split('=')[1] for line in open('semafor-semantic-parser/release/config', 'r').read().split('\n') if '=' in line and 'echo' not in line}
+import re, os, inspect
+
+here =os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+print here
+
+directories={line.split('=')[0]:line.split('=')[1] for line in open(here + '/semafor-semantic-parser/release/config', 'r').read().split('\n') if '=' in line and 'echo' not in line}
 
 root=directories['SEMAFOR_HOME']
 
