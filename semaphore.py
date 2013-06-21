@@ -150,6 +150,6 @@ def semaphore(text='', files='', semaphore=release):
     else:
         sample='../samples/sample.txt'
 
-    run_semaphore(semaphore=semaphore, sample=sample)
+    run_semaphore(release=semaphore, sample=sample)
 
     return import_semaphore()
