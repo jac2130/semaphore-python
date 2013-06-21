@@ -15,6 +15,11 @@ Dipanjan Das, Andre Martins, Nathan Schneider, Desai Chen, & Noah A. Smith Langu
 
 Thus, I will not describe the scientific uses here, but I will simply describe how this program is used from a purely practical perspective as well as the reasons for this Python wrapper.
 
+#Requirements
+Requires xmltodict to be installed first. This cam be installed with pip using the command:
+
+    sudo pip install xmltodict
+
 #To run the program on a list of files.
 This is recommended because as it stands each time that the program is launced the MST parser is trained anew and that takes a while. This makes running the program on a few sentences not worth the trouble:
 
